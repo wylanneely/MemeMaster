@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="x3y-wo-Rh6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Instructions View Controller-->
+        <scene sceneID="IYI-DD-Dzn">
+            <objects>
+                <viewController storyboardIdentifier="instructionView" id="x3y-wo-Rh6" customClass="InstructionsViewController" customModule="MemeMaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vmi-mN-9e3"/>
+                        <viewControllerLayoutGuide type="bottom" id="FsH-II-pvh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Aaz-0W-5By">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDQ-sF-mdq">
+                                <rect key="frame" x="16" y="50" width="343" height="587"/>
+                                <string key="text">Scratch me there, elevator butt i cry and cry and cry unless you pet me, and then maybe i cry just for fun yet show belly yet annoy owner until he gives you food say meow repeatedly until belly rubs, feels good. Have secret plans pushes butt to face so decide to want nothing to do with my owner today jumps se dog then run away. Meow meow, i tell my human. Eat from dog's food knock over christmas tree yet hide from vacuum cleaner for lick arm hair. Tuxedo cats always looking dapper eats owners hair then claws head leave hair everywhere knock dish off table head butt cant eat out of my own dish yet mew, leave hair everywhere. Swat at dog walk on car leaving trail of paw prints on hood and windshield stare out the window dream about hunting birds but dream about hunting birds so chew iPad power cord. Stare at ceiling flee in terror at cucumber discovered on floor lick the curtain just to be annoying. Cough hairball on conveniently placed pants stare at ceiling light scream at teh bath. A nice warm laptop for me to sit on annoy kitten brother with poking or purr. 
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ln-d6-7FG">
+                                <rect key="frame" x="296" y="607" width="81" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Right Arrow"/>
+                                <connections>
+                                    <segue destination="SAb-wv-wRB" kind="show" id="gA1-Pf-H7N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IDQ-sF-mdq" firstAttribute="top" secondItem="vmi-mN-9e3" secondAttribute="bottom" constant="30" id="Sjn-sD-HYD"/>
+                            <constraint firstItem="IDQ-sF-mdq" firstAttribute="leading" secondItem="Aaz-0W-5By" secondAttribute="leadingMargin" id="j0c-KD-kdy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IDQ-sF-mdq" secondAttribute="trailing" id="jQc-3H-pPT"/>
+                            <constraint firstItem="FsH-II-pvh" firstAttribute="top" secondItem="IDQ-sF-mdq" secondAttribute="bottom" constant="30" id="wSF-QY-6lL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lqa-Uf-FAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80.799999999999997" y="121.88905547226388"/>
+        </scene>
+        <!--Instructions View Controller-->
+        <scene sceneID="DrH-zr-8Hc">
+            <objects>
+                <viewController id="SAb-wv-wRB" customClass="InstructionsViewController" customModule="MemeMaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GDx-eC-mkb"/>
+                        <viewControllerLayoutGuide type="bottom" id="VdQ-u4-W1M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fwZ-0q-OG0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnW-pX-SVj">
+                                <rect key="frame" x="16" y="50" width="343" height="587"/>
+                                <string key="text">Scratch me there, elevator butt i cry and cry and cry unless you pet me, and then maybe i cry just for fun yet show belly yet annoy owner until he gives you food say meow repeatedly until belly rubs, feels good. Have secret plans pushes butt to face so decide to want nothing to do with my owner today jumps se dog then run away. Meow meow, i tell my human. Eat from dog's food knock over christmas tree yet hide from vacuum cleaner for lick arm hair. Tuxedo cats always looking dapper eats owners hair then claws head leave hair everywhere knock dish off table head butt cant eat out of my own dish yet mew, leave hair everywhere. Swat at dog walk on car leaving trail of paw prints on hood and windshield stare out the window dream about hunting birds but dream about hunting birds so chew iPad power cord. Stare at ceiling flee in terror at cucumber discovered on floor lick the curtain just to be annoying. Cough hairball on conveniently placed pants stare at ceiling light scream at teh bath. A nice warm laptop for me to sit on annoy kitten brother with poking or purr. 
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSX-CT-IzC">
+                                <rect key="frame" x="296" y="607" width="81" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Right Arrow"/>
+                                <connections>
+                                    <segue destination="mx0-7F-qpg" kind="show" id="LQT-UY-1VU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbV-TE-r7T">
+                                <rect key="frame" x="3" y="607" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Left Arrow"/>
+                                <connections>
+                                    <segue destination="x3y-wo-Rh6" kind="show" id="W8u-0i-h14"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="dnW-pX-SVj" secondAttribute="trailing" id="397-0R-7AV"/>
+                            <constraint firstItem="dnW-pX-SVj" firstAttribute="leading" secondItem="fwZ-0q-OG0" secondAttribute="leadingMargin" id="Ifr-WN-rx5"/>
+                            <constraint firstItem="VdQ-u4-W1M" firstAttribute="top" secondItem="dnW-pX-SVj" secondAttribute="bottom" constant="30" id="ZyR-J3-bi1"/>
+                            <constraint firstItem="dnW-pX-SVj" firstAttribute="top" secondItem="GDx-eC-mkb" secondAttribute="bottom" constant="30" id="md3-Dq-sxk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n29-xO-YUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="790" y="122"/>
+        </scene>
+        <!--Instructions View Controller-->
+        <scene sceneID="Zhm-Fi-OK1">
+            <objects>
+                <viewController id="mx0-7F-qpg" customClass="InstructionsViewController" customModule="MemeMaster" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W3c-ah-42b"/>
+                        <viewControllerLayoutGuide type="bottom" id="x1F-HG-eBz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Au8-6h-pqP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2e9-NU-DQo">
+                                <rect key="frame" x="16" y="50" width="343" height="587"/>
+                                <string key="text">Scratch me there, elevator butt i cry and cry and cry unless you pet me, and then maybe i cry just for fun yet show belly yet annoy owner until he gives you food say meow repeatedly until belly rubs, feels good. Have secret plans pushes butt to face so decide to want nothing to do with my owner today jumps se dog then run away. Meow meow, i tell my human. Eat from dog's food knock over christmas tree yet hide from vacuum cleaner for lick arm hair. Tuxedo cats always looking dapper eats owners hair then claws head leave hair everywhere knock dish off table head butt cant eat out of my own dish yet mew, leave hair everywhere. Swat at dog walk on car leaving trail of paw prints on hood and windshield stare out the window dream about hunting birds but dream about hunting birds so chew iPad power cord. Stare at ceiling flee in terror at cucumber discovered on floor lick the curtain just to be annoying. Cough hairball on conveniently placed pants stare at ceiling light scream at teh bath. A nice warm laptop for me to sit on annoy kitten brother with poking or purr. 
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sYu-y2-FoW">
+                                <rect key="frame" x="318" y="607" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="doneButtonTapped:" destination="mx0-7F-qpg" eventType="touchUpInside" id="tGf-Sc-ETY"/>
+                                    <segue destination="heD-gD-frx" kind="show" id="LHs-DQ-fMS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQm-CW-zxb">
+                                <rect key="frame" x="3" y="607" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Left Arrow"/>
+                                <connections>
+                                    <segue destination="SAb-wv-wRB" kind="show" id="9iU-Im-8Sv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2e9-NU-DQo" firstAttribute="top" secondItem="W3c-ah-42b" secondAttribute="bottom" constant="30" id="6xF-MD-08z"/>
+                            <constraint firstItem="2e9-NU-DQo" firstAttribute="leading" secondItem="Au8-6h-pqP" secondAttribute="leadingMargin" id="Tk3-FF-hc7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2e9-NU-DQo" secondAttribute="trailing" id="bwA-86-5G4"/>
+                            <constraint firstItem="x1F-HG-eBz" firstAttribute="top" secondItem="2e9-NU-DQo" secondAttribute="bottom" constant="30" id="dJm-c6-hxK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nib-Ob-nEx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1478" y="122"/>
+        </scene>
+        <!--StartMenu-->
+        <scene sceneID="ZYr-UY-Vsm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StartMenu" id="heD-gD-frx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5V-Dt-dDj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2131" y="122"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9iU-Im-8Sv"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,25 @@
+Models
+
+--MemeModel--
+
+image: UIImage
+imageIndex: Int
+creator: String //maybe?
+topText: String
+bottomText: String
+upVotes: Int
+downVotes: Int
+
+
+--UserModel--
+
+displayName: String
+displayImage: UIImage // This is like a profile picture
+createdMemes: [MemeModel]
+
+--Game--
+
+numberOfPlayers: Int
+users: [UserModel]
+image: //??
+displayResults: Func that displays results

@@ -1,0 +1,26 @@
+class User {
+  - Username: String
+  - Profile Pic: UIImage
+}
+
+class Meme {
+  - imageIndex: Int
+  - image: UIImage
+  - createdBy: User
+  - upVotes: Int
+  - downVotes: Int
+  - topText: String
+  - bottomText: String
+}
+
+class Game {
+
+  - users: [User]
+  - memeLimit: Int
+  - createdBy: User
+  - memes: [Meme] (each user-submitted Meme
+  will be appended to this property)
+  - numberOfRounds: Int
+  - winner: User
+  - loser: User
+}
